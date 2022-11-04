@@ -42,6 +42,8 @@ html[data-theme="light"] {
     --white: #ffff;
     --silver: #7f8c8d;
     --grey: #f8f8f8;
+
+
   }
   
   #logo {
@@ -85,7 +87,6 @@ html[data-theme="light"] {
   .card { 
     margin: 3% auto;
     width: 252px;
-    color: var(--grey);
     
   }
   .profile-img {
@@ -94,21 +95,21 @@ html[data-theme="light"] {
   }
   
   .profile-title{
-    color: var(--primary);
+    color: var(--silver);
     font-weight: 700;
     font-size: 30px;
     margin-top: 5px;
   }
   
   .profile-subtitle {
-    color: var(--grey);
+    color: var(--silver);
     font-size: 14px;
     font-weight: 700;
     margin-top: 5px;
   }
   
   .profile-description {
-    color: var(--dark);
+    color: var(--silver);
     font-size: 14px;
     font-weight: 400;
     margin-top: 13px;
@@ -126,8 +127,9 @@ html[data-theme="light"] {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: var(--white);
+    background: #286699;
     border-radius: 8px;
+    
   }
   
   .info-box:last-child {
@@ -180,7 +182,8 @@ html[data-theme="light"] {
   .repository {
     width: 442px;
     height: 148px;
-    background-color: var(--white);
+    background-color:rgb(214, 216, 212);
+    ;
     padding: 20px;
     border-radius: 8px;
     display: flex;
@@ -189,7 +192,7 @@ html[data-theme="light"] {
   }
   
   .repositories-title {
-    color: var(--grey);
+    color: var(--dark);
     font-weight: 700;
     font-size: 18px;
   } 
@@ -236,8 +239,8 @@ html[data-theme="light"] {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: var(--dark);
-    color: var(--dark);
+    background-color: var(--white);
+    color: var(--white);
     position: fixed;
     bottom: 0;
   }
@@ -248,7 +251,9 @@ html[data-theme="light"] {
   
   .text-highlight {
     font-weight: 700;
-    color: var(--dark);
+    color: var(--white);
   }
+
   
+    
   
